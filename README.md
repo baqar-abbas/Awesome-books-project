@@ -80,11 +80,12 @@ Example commands:
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Baqar**
+👤 **Baqar Abbas**
 
-- GitHub: [@]()
-- Twitter: [@]()
-- LinkedIn: []()
+- GitHub: [@Baqar](https://github.com/baqar-abbas)
+- Twitter: [@BaqarAbbas9](https://twitter.com/BaqarAbbas9)
+- LinkedIn: [Baqar Abbas](https://www.linkedin.com/in/baqarlinkedin/)
+
 
 👤 **Fuad Abdlemoin**
 

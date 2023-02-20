@@ -1,15 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+<html>
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+  <title>Awesome Books</title>    
   </head>
-  <body>
-    <form action="" method="POST" id="books">
-      <input type="text" class="book_title" />
-      <input type="text" class="book_author" />
-    </form>
-  </body>
+    <body>
+        <header>
+            <h1>Awesome Books</h1>
+        </header>
+        <main>
+            <div class="dynamic">
+<ul id="list">
+
+</ul>
+
+            </div>
+            <div class="add-books">
+                <form action="" id="form1">
+                    <input type="text" name="title" id="title" placeholder="Title"><br>
+                    <input type="text" name="author" id="author" placeholder="Author"><br><br>
+                    <input type="submit" value="Add" id="submit">
+                   
+                </form>
+            </div>
+        </main>
+        <script src="app.js"></script>
+    </body>
 </html>
