@@ -31,7 +31,7 @@
 
 # 📖 Awesome-books-project <a name="about-project"></a>
 
-**Awesome-books-project** is a simmple project which can add and remove books on the website.
+**Awesome-books-project** is a simple project which can add and remove books on the website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -41,9 +41,7 @@ HTML and JavaScript
 
 ### Key Features <a name="key-features"></a>
 
-- **[html styled with css]**
-- **[some google fonts]**
-- **[the contact form can collect data by using the Formspree service ]**
+- **[html manipulated with JavaScript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
