@@ -1,5 +1,45 @@
+.dynamic {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  width: 35%;
+}
+
 #list {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+#list li {
+  padding: 10px;
+}
+
+#list li:nth-child(odd) {
+  background-color: darkgray;
+}
+
+button {
+  float: right;
+  border: 3px solid black;
+}
+
+.divider {
+  width: 90px;
+  height: 1px;
+  background: black;
+  position: relative;
+  right: 36%;
+}
+
+#submit {
+  position: relative;
+  left: 11%;
+}
+
+.add-books {
+  margin-left: 8%;
+}
+
+h1 {
+  margin-left: 8%;
 }
