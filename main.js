@@ -1,5 +1,3 @@
-/* eslint-disable linebreak-style */
-
 class Book {
   constructor(title, author, id) {
     this.title = title;
@@ -47,7 +45,7 @@ class Book {
   }
 }
 
-Book.displayAll();
+window.onload = Book.displayAll();
 
 const form = document.querySelector('#form1');
 let j = 1;
