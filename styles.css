@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 .dynamic {
-  border: 1px solid black;
+  
   margin-bottom: 20px;
   width: 35%;
 }
@@ -8,6 +12,7 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+  border: 1px solid black;
 }
 
 #list li {
