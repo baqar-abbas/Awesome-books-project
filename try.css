@@ -1,0 +1,54 @@
+body {
+  padding: 100px 400px;
+  font-size: 20px;
+}
+
+#displayed {
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+}
+
+.dynamic {
+  display: flex;
+  width: 800px;
+  flex-direction: row;
+  top: 50px;
+  border: solid 5px;
+  align-content: center;
+}
+
+.dynamic small {
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.btnremove {
+  position: relative;
+
+  /* left: calc(50% + 30px); */
+  top: 0;
+  border: solid 2px;
+}
+
+.divider {
+  position: relative;
+  margin: 50px;
+  left: 230px;
+  width: 100px;
+  height: 1px;
+  background: black;
+}
+
+#books {
+  padding-left: 250px;
+  position: relative;
+}
+
+.btnadd {
+  position: relative;
+  left: 130px;
+}

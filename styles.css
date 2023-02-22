@@ -1,7 +1,8 @@
 .dynamic {
   border: 1px solid black;
   margin-bottom: 20px;
-  width: 35%;
+  width: 100%;
+  height: auto;
 }
 
 #list {
@@ -31,15 +32,110 @@ button {
   right: 36%;
 }
 
-#submit {
+h1 {
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  border: 2px solid black;
+  font-size: 18px;
+  padding: 5px 30px;
+}
+
+.navigation small {
+  font-size: 18px;
+}
+
+.navcontainer {
   position: relative;
-  left: 11%;
+  left: 75%;
+}
+
+.navcontainer a {
+  margin-right: 20px;
+  padding-right: 10px;
+  border-right: 2px solid black;
+  text-decoration: none;
+}
+
+.navcontainer a:hover {
+  color: dodgerblue;
+  cursor: pointer;
+}
+
+.navcontainer .contact {
+  border-style: hidden;
+}
+
+#datetime {
+  float: right;
+  position: relative;
+  top: 5px;
+  font-size: 18px;
+}
+
+.contactinfo {
+  display: none;
+  position: relative;
+  top: 50px;
+  width: 90%;
+}
+
+.contactinfo p {
+  text-align: center;
+}
+
+.contactinfo .cli {
+  position: relative;
+  left: 37%;
+  width: 50%;
+}
+
+.main {
+  /* display: block; */
+  position: relative;
+  top: 50px;
+  width: 100%;
+}
+
+.footer {
+  width: 95%;
+  position: absolute;
+  top: 95%;
+  border: 2px solid black;
+  font-size: 18px;
+  padding: 5px 30px;
+  margin-bottom: 10px;
 }
 
 .add-books {
-  margin-left: 8%;
+  display: none;
+  position: relative;
+  top: 50px;
+  width: 90%;
 }
 
-h1 {
-  margin-left: 8%;
+h2 {
+  text-align: center;
+  font-size: 42px;
+}
+
+#form1 {
+  position: relative;
+  width: 60%;
+  left: 34%;
+  top: 50px;
+}
+
+#form1 input {
+  width: 60%;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+#submit {
+  position: relative;
+  max-width: 50px;
+  left: 55%;
 }

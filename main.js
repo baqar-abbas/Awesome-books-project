@@ -59,4 +59,54 @@ form.addEventListener('submit', (event) => {
   const book = new Book(title.value, author.value, j += 1);
   Book.add(book);
   Book.displayAll();
+  title.value = '';
+  author.value = '';
 });
+
+const list = document.querySelector('.list');
+const listPage = document.querySelector('.main');
+const addNew = document.querySelector('.add-new');
+const addBooksPage = document.querySelector('.add-books');
+const contact = document.querySelector('.contact');
+const contactPage = document.querySelector('.contactinfo');
+
+list.addEventListener('click', () => {
+  contactPage.style.display = 'none';
+  addBooksPage.style.display = 'none';
+  listPage.style.display = 'block';
+  list.style.color = 'blue';
+  addNew.style.color = 'black';
+  contact.style.color = 'black';
+});
+
+addNew.addEventListener('click', () => {
+  contactPage.style.display = 'none';
+  addBooksPage.style.display = 'block';
+  listPage.style.display = 'none';
+  list.style.color = 'black';
+  addNew.style.color = 'blue';
+  contact.style.color = 'black';
+});
+
+contact.addEventListener('click', () => {
+  contactPage.style.display = 'block';
+  addBooksPage.style.display = 'none';
+  listPage.style.display = 'none';
+  list.style.color = 'black';
+  addNew.style.color = 'black';
+  contact.style.color = 'blue';
+});
+
+function time() {
+  const now = new Date();
+  const hours = now.getHours();
+  const minutes = now.getMinutes();
+  const seconds = now.getSeconds();
+  const options = {
+    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+  };
+  const date = now.toLocaleDateString('en-US', options);
+
+  document.getElementById('datetime').textContent = `${date} ${hours}:${minutes}:${seconds}`;
+}
+setInterval(time, 1000);
