@@ -56,6 +56,7 @@ HTML and JavaScript
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
+Web Browser, Code Editor.
 
 ### Setup
 
@@ -69,12 +70,16 @@ Example commands:
 ```
 
 ### Install
+VS CODE, Dev Dependencies (Linters), npm Package Manager
 
 ### Usage
+Add a Book on Awesome books Website and view the list of available books and their authors.
 
 ### Run tests
+Test Add, remove and available list. 
 
 ### Deployment
+This Project will be deployed after final approval.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
